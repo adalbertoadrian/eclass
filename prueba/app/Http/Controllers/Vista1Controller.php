@@ -11,12 +11,31 @@ namespace App\Http\Controllers;
 
 class Vista1Controller extends Controller
 {
+    private function calculos($arreglo_mes,$coordinadoras) {
+        //Realizo los calculos de la primera y la ultima en atención
+        foreach ($coordinadoras as $key => $value) {
+            foreach ($arreglo_mes as $mes) {
+                if($mes[4] == $key) {
+                    $coordinadoras[$key] += 1;
+                }
+            }
+        }
+        asort($coordinadoras);
+        reset($coordinadoras);
+        $key_primero = key($coordinadoras);
+        $valor_primero = current($coordinadoras);
+        end($coordinadoras);
+        $key_ultimo = key($coordinadoras);
+        $valor_ultimo = current($coordinadoras);
+        $coordinadoras = array($key_primero => $valor_primero,$key_ultimo => $valor_ultimo);
+
+        return $coordinadoras;
+    }
+
     public function index()
     {
         //Declaro Varibles
-        $extraidos = array(); $enero = array(); $febrero = array(); $marzo = array(); $abril = array(); $marzo = array();
-        $coordinadoras_enero = array(); $coordinadoras_febrero = array(); $coordinadoras_marzo = array();
-        $coordinadoras_abril = array(); $coordinadoras_mayo = array();
+        $extraidos = array(); $enero = array(); $febrero = array(); $marzo = array(); $abril = array(); $mayo = array();
 
         //Extraigo CSV
         $csv = fopen("files/atenciones.csv","r");
@@ -62,24 +81,12 @@ class Vista1Controller extends Controller
         $coordinadoras_abril = array_fill_keys(array_keys(array_flip(array_unique(array_column($abril, 4)))), 0);
         $coordinadoras_mayo = array_fill_keys(array_keys(array_flip(array_unique(array_column($mayo, 4)))), 0);
 
-        foreach ($coordinadoras_enero as $key => $value) {
-            foreach ($enero as $mes) {
-                if($mes[4] == $key) {
-                    $coordinadoras_enero[$key] += 1;
-                }
-            }
-        }
-
-        print_r($coordinadoras_enero);
-die();
-        /*foreach ($coordinadoras_enero as $coordinadora_enero) {
-            foreach ($enero as $registro) {
-                $atenciones_enero[] = $coordinadoras_enero => $registro
-            }
-        }*/
-
-        print_r($enero);
-        die();
+        //Realizo los calculos por mes
+        $datos["coordinadoras_enero"] = $this->calculos($enero,$coordinadoras_enero);
+        $datos["coordinadoras_febrero"] = $this->calculos($febrero,$coordinadoras_febrero);
+        $datos["coordinadoras_marzo"] = $this->calculos($marzo,$coordinadoras_marzo);
+        $datos["coordinadoras_abril"] = $this->calculos($abril,$coordinadoras_abril);
+        $datos["coordinadoras_mayo"] = $this->calculos($mayo,$coordinadoras_mayo);
 
         return view('vista1', $datos);
     }

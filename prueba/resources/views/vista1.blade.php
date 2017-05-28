@@ -9,6 +9,6 @@
 </head>
 <body>
     <h1>Prueba</h1>
-    <?php var_dump($datos); ?>
+    <?php var_dump($coordinadoras_enero); ?>
 </body>
 </html>
