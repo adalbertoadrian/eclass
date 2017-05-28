@@ -1,0 +1,356 @@
+/* line 1, ../sass/estilos/_generales.scss */
+.login {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+/* line 7, ../sass/estilos/_generales.scss */
+.titulo {
+  text-align: center;
+}
+
+/* line 11, ../sass/estilos/_generales.scss */
+.desarrollado {
+  position: fixed;
+  bottom: 0;
+  padding: 10px 20px;
+  background-color: #D8D8D8;
+  color: #000000;
+}
+
+/* line 19, ../sass/estilos/_generales.scss */
+.pencil {
+  margin-right: 5px;
+}
+
+/* line 23, ../sass/estilos/_generales.scss */
+.menu-item {
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  border-left: 0px solid #848484;
+}
+/* line 26, ../sass/estilos/_generales.scss */
+.menu-item:hover, .menu-item.active {
+  border-left: 4px solid #848484;
+}
+/* line 31, ../sass/estilos/_generales.scss */
+.menu-item:hover a {
+  padding-left: 15px;
+  color: #444;
+}
+/* line 37, ../sass/estilos/_generales.scss */
+.menu-item .nav-second-level li:hover a {
+  padding-left: 34px;
+  color: #444;
+}
+/* line 41, ../sass/estilos/_generales.scss */
+.menu-item .nav-second-level li a {
+  padding-left: 30px;
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  color: #337AB7;
+}
+
+/* line 49, ../sass/estilos/_generales.scss */
+.activo {
+  transition: all 0s;
+  -webkit-transition: all 0s;
+  -ms-transition: all 0s;
+  -o-transition: all 0s;
+  border-left: 4px solid #848484;
+}
+
+/* line 54, ../sass/estilos/_generales.scss */
+.conf table thead tr {
+  background-color: #424242;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+/* line 60, ../sass/estilos/_generales.scss */
+.fecha {
+  padding: 14px 20px;
+  font-weight: bold;
+}
+
+/* line 65, ../sass/estilos/_generales.scss */
+.fa-cog:hover,
+.fa-cog:focus {
+  text-decoration: none;
+}
+
+/* line 70, ../sass/estilos/_generales.scss */
+.contenedor {
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+/* line 75, ../sass/estilos/_generales.scss */
+.dropdown-menu {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+/* line 78, ../sass/estilos/_generales.scss */
+.dropdown-menu li a:hover,
+.dropdown-menu li a:hover i,
+.dropdown-menu li a:hover div {
+  background-color: #e1e3e9;
+}
+
+/* line 85, ../sass/estilos/_generales.scss */
+.dropdown-alerts,
+.dropdown-login {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 91, ../sass/estilos/_generales.scss */
+.divider {
+  margin: 0 0 0 0 !important;
+}
+
+/* line 96, ../sass/estilos/_generales.scss */
+.dropdown-submenu ul {
+  position: absolute;
+  margin-top: -119px;
+  margin-left: 170px;
+  width: 200px;
+}
+/* line 101, ../sass/estilos/_generales.scss */
+.dropdown-submenu ul:after, .dropdown-submenu ul:before {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+/* line 112, ../sass/estilos/_generales.scss */
+.dropdown-submenu ul:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-right-color: #424242;
+  border-width: 5px;
+  margin-top: 36px;
+}
+/* line 118, ../sass/estilos/_generales.scss */
+.dropdown-submenu ul:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-right-color: #424242;
+  border-width: 6px;
+  margin-top: 35px;
+}
+/* line 125, ../sass/estilos/_generales.scss */
+.dropdown-submenu:hover {
+  background: #e1e3e9;
+}
+/* line 127, ../sass/estilos/_generales.scss */
+.dropdown-submenu:hover ul {
+  display: block;
+  padding-left: 0px;
+}
+/* line 130, ../sass/estilos/_generales.scss */
+.dropdown-submenu:hover ul a {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  background: #424242;
+  color: #ffffff;
+}
+/* line 131, ../sass/estilos/_generales.scss */
+.dropdown-submenu:hover ul a:hover {
+  background: #383838;
+}
+/* line 133, ../sass/estilos/_generales.scss */
+.dropdown-submenu:hover ul a:hover i {
+  background: #383838;
+}
+/* line 142, ../sass/estilos/_generales.scss */
+.dropdown-submenu:hover ul a i {
+  color: #ffffff;
+}
+/* line 148, ../sass/estilos/_generales.scss */
+.dropdown-submenu ul {
+  display: none;
+}
+
+/* line 153, ../sass/estilos/_generales.scss */
+.camaras-titulo {
+  background-color: #424242;
+  color: #ffffff;
+}
+
+/* line 159, ../sass/estilos/_generales.scss */
+.resumen-tabla thead tr {
+  display: none;
+}
+/* line 161, ../sass/estilos/_generales.scss */
+.resumen-tabla thead tr:first-child {
+  display: table-row;
+}
+/* line 165, ../sass/estilos/_generales.scss */
+.resumen-tabla td,
+.resumen-tabla th {
+  font-size: 12px;
+  padding: 5px 12px !important;
+}
+
+/* Dibujo de Camara */
+/* line 175, ../sass/estilos/_generales.scss */
+.dibujo_camara #tabla_camara {
+  width: initial !important;
+  margin: 0 auto;
+}
+/* line 178, ../sass/estilos/_generales.scss */
+.dibujo_camara #tabla_camara #camara {
+  border: 5px solid #000000;
+  background-color: #848484;
+  padding: 10px 20px;
+}
+/* line 182, ../sass/estilos/_generales.scss */
+.dibujo_camara #tabla_camara #camara .calles {
+  border: 3px solid #000000;
+  background-color: #ffffff;
+  padding: 10px 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* line 188, ../sass/estilos/_generales.scss */
+.dibujo_camara #tabla_camara #camara .calles table {
+  width: 100%;
+}
+/* line 190, ../sass/estilos/_generales.scss */
+.dibujo_camara #tabla_camara #camara .calles table td {
+  text-align: center;
+}
+/* line 195, ../sass/estilos/_generales.scss */
+.dibujo_camara #tabla_camara #camara .posiciones {
+  border: 1px solid #000000;
+  background-color: #0B3861;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* line 204, ../sass/estilos/_generales.scss */
+.dibujo_camara #tabla_camara #camara td {
+  width: 50px;
+}
+/* line 207, ../sass/estilos/_generales.scss */
+.dibujo_camara #tabla_camara #camara .n_calle {
+  display: block;
+  text-align: center;
+  color: #ffffff;
+}
+/* line 212, ../sass/estilos/_generales.scss */
+.dibujo_camara #tabla_camara #camara .altura {
+  display: inline-block;
+  color: #ffffff;
+}
+/* line 216, ../sass/estilos/_generales.scss */
+.dibujo_camara #tabla_camara #camara .lote {
+  font-size: 8px;
+  color: #ffffff;
+  display: table;
+  margin: 0 auto;
+  margin-top: 14px;
+  text-align: center;
+}
+/* line 223, ../sass/estilos/_generales.scss */
+.dibujo_camara #tabla_camara #camara .lote span {
+  font-size: 10px;
+  font-weight: bold;
+}
+/* line 228, ../sass/estilos/_generales.scss */
+.dibujo_camara #tabla_camara #camara .ocupada {
+  opacity: 0.7;
+}
+/* line 231, ../sass/estilos/_generales.scss */
+.dibujo_camara #tabla_camara #camara .nivel2 .posiciones {
+  background-color: #0B3B0B;
+}
+
+/* line 238, ../sass/estilos/_generales.scss */
+.leyenda {
+  text-align: right;
+}
+/* line 240, ../sass/estilos/_generales.scss */
+.leyenda span {
+  margin-right: 5px;
+  display: inline-block;
+  margin-top: -6px;
+}
+/* line 245, ../sass/estilos/_generales.scss */
+.leyenda .nivel1 {
+  background-color: #0B3861;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+/* line 251, ../sass/estilos/_generales.scss */
+.leyenda .nivel2 {
+  background-color: #0B3B0B;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+
+/* line 259, ../sass/estilos/_generales.scss */
+.editar {
+  text-align: center;
+}
+
+/* line 263, ../sass/estilos/_generales.scss */
+.page-header {
+  border-bottom: 1px solid #D8D8D8;
+}
+
+/* line 267, ../sass/estilos/_generales.scss */
+.dataTables_info,
+.dt-buttons {
+  position: absolute;
+}
+
+/* line 272, ../sass/estilos/_generales.scss */
+.dt-button {
+  margin-right: 5px;
+  -webkit-box-shadow: 2px 2px 5px #848484;
+  -moz-box-shadow: 2px 2px 5px #848484;
+  -ms-box-shadow: 2px 2px 5px #848484;
+  box-shadow: 2px 2px 5px #848484;
+}
+
+/* line 278, ../sass/estilos/_generales.scss */
+.alertas .warning,
+.alertas .danger {
+  display: none;
+  width: 15px;
+  height: 15px;
+  background-color: #8A6D3B;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 10px;
+  position: absolute;
+  margin-left: -5px;
+  margin-top: -12px;
+  text-align: center;
+  vertical-align: bottom;
+  padding-top: 1px;
+}
+/* line 295, ../sass/estilos/_generales.scss */
+.alertas .danger {
+  background-color: #A94442;
+  margin-top: -5px;
+  margin-left: 12px;
+}

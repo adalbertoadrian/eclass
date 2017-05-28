@@ -1,0 +1,287 @@
+/* line 1, ../../sass/estilos/estilos.scss */
+.login {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+/* line 7, ../../sass/estilos/estilos.scss */
+.titulo {
+  text-align: center;
+}
+
+/* line 11, ../../sass/estilos/estilos.scss */
+.desarrollado {
+  position: fixed;
+  bottom: 0;
+  padding: 10px 20px;
+  background-color: #D8D8D8;
+  color: #000000;
+}
+
+/* line 19, ../../sass/estilos/estilos.scss */
+.pencil {
+  margin-right: 5px;
+}
+
+/* line 23, ../../sass/estilos/estilos.scss */
+.menu-item {
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  border-left: 0px solid #848484;
+}
+/* line 29, ../../sass/estilos/estilos.scss */
+.menu-item:hover, .menu-item:active {
+  border-left: 4px solid #848484;
+}
+/* line 34, ../../sass/estilos/estilos.scss */
+.menu-item:hover a {
+  padding-left: 15px;
+}
+/* line 39, ../../sass/estilos/estilos.scss */
+.menu-item .nav-second-level li:hover a {
+  padding-left: 34px;
+}
+/* line 42, ../../sass/estilos/estilos.scss */
+.menu-item .nav-second-level li a {
+  padding-left: 30px;
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -o-transition: all 0.1s;
+}
+
+/* line 52, ../../sass/estilos/estilos.scss */
+.activo {
+  transition: all 0s;
+  -webkit-transition: all 0s;
+  -ms-transition: all 0s;
+  -o-transition: all 0s;
+  border-left: 4px solid #848484;
+}
+
+/* line 60, ../../sass/estilos/estilos.scss */
+.conf table thead tr {
+  background-color: #424242;
+  color: #fff;
+  font-size: 12px;
+}
+
+/* line 66, ../../sass/estilos/estilos.scss */
+.fecha {
+  padding: 14px 20px;
+  font-weight: bold;
+}
+
+/* line 71, ../../sass/estilos/estilos.scss */
+.fa-cog:hover,
+.fa-cog:focus {
+  text-decoration: none;
+}
+
+/* line 76, ../../sass/estilos/estilos.scss */
+.botoniniciar {
+  border: 1px solid #008000;
+  padding: 10px 15px;
+  background-color: #008000;
+  border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 2px 2px 5px #424242;
+  -o-box-shadow: 2px 2px 5px #424242;
+  -ms-box-shadow: 2px 2px 5px #424242;
+  -webkit-box-shadow: 2px 2px 5px #424242;
+  color: #fff;
+}
+/* line 89, ../../sass/estilos/estilos.scss */
+.botoniniciar:hover, .botoniniciar:focus {
+  color: #fff;
+  background-color: #21610B;
+  border: 1px solid #21610B;
+}
+
+/* line 97, ../../sass/estilos/estilos.scss */
+.botonpalletsbins {
+  border: 1px solid #424242;
+  padding: 8px 13px;
+  background-color: #424242;
+  border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 2px 2px 5px #2E2E2E;
+  -o-box-shadow: 2px 2px 5px #2E2E2E;
+  -ms-box-shadow: 2px 2px 5px #2E2E2E;
+  -webkit-box-shadow: 2px 2px 5px #2E2E2E;
+  color: #fff;
+}
+/* line 110, ../../sass/estilos/estilos.scss */
+.botonpalletsbins:hover, .botonpalletsbins:focus {
+  color: #fff;
+  background-color: #2E2E2E;
+  border: 1px solid #2E2E2E;
+}
+
+/* line 118, ../../sass/estilos/estilos.scss */
+.contenedor {
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+/* line 123, ../../sass/estilos/estilos.scss */
+.dropdown-menu {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+/* line 126, ../../sass/estilos/estilos.scss */
+.dropdown-menu li a:hover {
+  color: #fff;
+  background-color: #337AB7;
+}
+
+/* line 132, ../../sass/estilos/estilos.scss */
+.camaras-titulo {
+  background-color: #424242;
+  color: #fff;
+}
+
+/* line 138, ../../sass/estilos/estilos.scss */
+.resumen-tabla thead tr {
+  display: none;
+}
+/* line 140, ../../sass/estilos/estilos.scss */
+.resumen-tabla thead tr:first-child {
+  display: table-row;
+}
+/* line 144, ../../sass/estilos/estilos.scss */
+.resumen-tabla td,
+.resumen-tabla th {
+  font-size: 12px;
+  padding: 5px 12px !important;
+}
+
+/* Dibujo de Camara */
+/* line 154, ../../sass/estilos/estilos.scss */
+.dibujo_camara #tabla_camara {
+  width: initial !important;
+  margin: 0 auto;
+}
+/* line 157, ../../sass/estilos/estilos.scss */
+.dibujo_camara #tabla_camara #camara {
+  border: 5px solid #000000;
+  background-color: #848484;
+  padding: 10px 20px;
+}
+/* line 161, ../../sass/estilos/estilos.scss */
+.dibujo_camara #tabla_camara #camara .calles {
+  border: 3px solid #000000;
+  background-color: #fff;
+  padding: 10px 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* line 167, ../../sass/estilos/estilos.scss */
+.dibujo_camara #tabla_camara #camara .calles table {
+  width: 100%;
+}
+/* line 169, ../../sass/estilos/estilos.scss */
+.dibujo_camara #tabla_camara #camara .calles table td {
+  text-align: center;
+}
+/* line 174, ../../sass/estilos/estilos.scss */
+.dibujo_camara #tabla_camara #camara .posiciones {
+  border: 1px solid #000000;
+  background-color: #0B3861;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* line 183, ../../sass/estilos/estilos.scss */
+.dibujo_camara #tabla_camara #camara td {
+  width: 50px;
+}
+/* line 186, ../../sass/estilos/estilos.scss */
+.dibujo_camara #tabla_camara #camara .n_calle {
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+/* line 191, ../../sass/estilos/estilos.scss */
+.dibujo_camara #tabla_camara #camara .altura {
+  display: inline-block;
+  color: #fff;
+}
+/* line 195, ../../sass/estilos/estilos.scss */
+.dibujo_camara #tabla_camara #camara .lote {
+  font-size: 8px;
+  color: #fff;
+  display: table;
+  margin: 0 auto;
+  margin-top: 14px;
+  text-align: center;
+}
+/* line 202, ../../sass/estilos/estilos.scss */
+.dibujo_camara #tabla_camara #camara .lote span {
+  font-size: 10px;
+  font-weight: bold;
+}
+/* line 207, ../../sass/estilos/estilos.scss */
+.dibujo_camara #tabla_camara #camara .ocupada {
+  opacity: 0.7;
+}
+/* line 210, ../../sass/estilos/estilos.scss */
+.dibujo_camara #tabla_camara #camara .nivel2 .posiciones {
+  background-color: #0B3B0B;
+}
+
+/* line 217, ../../sass/estilos/estilos.scss */
+.leyenda {
+  text-align: right;
+}
+/* line 219, ../../sass/estilos/estilos.scss */
+.leyenda span {
+  margin-right: 5px;
+  display: inline-block;
+  margin-top: -6px;
+}
+/* line 224, ../../sass/estilos/estilos.scss */
+.leyenda .nivel1 {
+  background-color: #0B3861;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+/* line 230, ../../sass/estilos/estilos.scss */
+.leyenda .nivel2 {
+  background-color: #0B3B0B;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+
+/* line 238, ../../sass/estilos/estilos.scss */
+.editar {
+  text-align: center;
+}
+
+/* line 242, ../../sass/estilos/estilos.scss */
+.page-header {
+  border-bottom: 1px solid #D8D8D8;
+}
+
+/* line 246, ../../sass/estilos/estilos.scss */
+.dataTables_info,
+.dt-buttons {
+  position: absolute;
+}
+
+/* line 251, ../../sass/estilos/estilos.scss */
+.dt-button {
+  margin-right: 5px;
+  box-shadow: 2px 2px 5px #848484;
+}

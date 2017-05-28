@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('principal');
 });
 
 Route::get('/vista1', 'Vista1Controller@index');
+Route::get('/vista2', 'Vista2Controller@index');

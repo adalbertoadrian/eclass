@@ -27,7 +27,7 @@ class Vista1Controller extends Controller
         end($coordinadoras);
         $key_ultimo = key($coordinadoras);
         $valor_ultimo = current($coordinadoras);
-        $coordinadoras = array($key_primero => $valor_primero,$key_ultimo => $valor_ultimo);
+        $coordinadoras = array("primero" => array("coordinadora" => $key_primero, "atenciones" => $valor_primero), "ultimo" => array("coordinadora" => $key_ultimo, "atenciones" => $valor_ultimo));
 
         return $coordinadoras;
     }
