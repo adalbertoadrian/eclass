@@ -42,10 +42,13 @@ $date = $week_days[$week_day_now] . " " . $day_now . " de " . $months[$month_now
     <div class="navbar-default sidebar" role="navigation">
         <div class="sidebar-nav navbar-collapse">
             <ul class="nav" id="side-menu">
-                <li class="menu-item termometria">
+                <li class="menu-item">
+                    <a href="{{ asset('/') }}"><i class="fa fa-circle-o"></i> Inicio</a>
+                </li>
+                <li class="menu-item">
                     <a href="{{ asset('vista1') }}"><i class="fa fa-circle-o"></i> Vista1</a>
                 </li>
-                <li class="menu-item buqueda">
+                <li class="menu-item">
                     <a href="{{ asset('vista2') }}"><i class="fa fa-circle-o"></i> Vista2</a>
                 </li>
             </ul>
